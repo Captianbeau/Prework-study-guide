@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -47,12 +48,32 @@
           <li>a-(stands for anchor) creates inks to the same webpage or other webpages. The "href" points to the "url" for the link</li>
           <li>section- elements are semantic elements that define a section in a dociment that contains thematic content.</li>
           <li>id- is a way to identify elements and select them. </li>
+          <li>rel- attribute specifies relationship between current doc and linked doc</li>
+          <li>href- is using relative path (being location of the linked doc from the location of the current doc, like going from your house to the store)</li>
+          <li>./assets/style.css- current location/ file linked doc is located/linked doc</li>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS notes here</li>
+          <li>Inline CSS- style an element directly, they apply to a specific tag. useful for quick perminant changes, each style must be edited individually</li>
+          <li>internal style sheet- embed an entire style sheet into the HTML file, contains CSS rules that only apply to that page. you can configure with CSS and IDs, that identify elements, to style multiple things. a single change will apply to all tagged elements</li>
+          <li>external CSS style sheet- most common. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier. when using we link the file using the "link" element placed in the HTML's</li>
+          <li>declarations- (the rules) contains the CSS property we want to apply and the value of the property</li>
+          <li>selector- defines the element or attributes to which the rules, or declorations, will apply</li>
+          <li>margin- indicates the space we want around the outside of the element</li>
+          <li>padding- adds space around the inside of an element. (when padding is increased the element gets bigger)</li>
+          <li>star-declare all elements on the page will have the style properties listed</li>
+          <li>multiple elements can be grouped together using a comma if they you want them to have the same styling</li>
+          <li>DRY code-Do not repeate yourself is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+          <li>text-align-is a way of changing the alignment of text on a page</li>
+          <li> img- assigns property values to any image element in the markup</li>
+          <li>display-is assigned with the block value wich assigns each image to start on a new line</li>
+          <li>Class attribute- allow us to share a CSS rule to any element we choose by assigning a rule to a class attribute</li>
+          <li>width- width of the element</li>
+          <li>border-assigns a border with specified width</li>
+          <li>box-shadow-adds a shadow effect around element's frame. a box shadow is describes by x and y offsets relitive to the element, blur and spread radius, and color</li>
+          <li>assigning colors in CSS can be done by using semantic references such as gray or blue. we can also refer to a color by its hexadecimal code, or hex#</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -78,6 +99,10 @@
           <li>Merge-PR approved and your changes are pulled into the main branch (changes publish to live site)</li>
           <li>issue- way to report new task or content fixes kinda like a note or a pin best practise: delete note when finished 	and link Doc when you have one. label issues accordingly</li>
           <li>README- file contains other information about the code</li>
+          <li>git status- shows you where you are in the repo tree</li>
+          <li>git checkout main-allows you to check if your updated with the main branch</li>
+          <li>git checkout -b "title"- creates a new branch "with the title you name it"</li>
+          <lit>git- command prefex? of git</lit>
         </ul>
       </section>
       <section class="card" id="javascript-section">  
@@ -89,7 +114,7 @@
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p class="footnote">  I can code!</p>
     </footer>
   </body>
 </html>
